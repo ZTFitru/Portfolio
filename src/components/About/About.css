@@ -1,0 +1,48 @@
+.about-out {
+    padding: 2rem;
+    h4 {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.about-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    gap: 20px;
+}
+
+.about-out.light {
+    background-color: var(--bg-color-light); 
+    color: var(--text-color-light); 
+}
+
+.about-out.dark {
+    background-color: var(--bg-color-dark); 
+    color: var(--text-color-dark); 
+}
+
+.about-out.light .about-cont {
+    h3, p{
+        color: #000;
+    }
+}
+
+.about-out.dark .about-cont {
+    h3, p {
+        color: #fff; 
+    }
+}
+
+.about-out.light {
+    h4 {
+        color: #000;
+    }
+}
+
+.about-out.dark {
+    h4 {
+        color: #fff;
+    }
+}

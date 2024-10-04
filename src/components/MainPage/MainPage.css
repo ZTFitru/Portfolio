@@ -1,0 +1,152 @@
+.mainpage-out {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.mainpage-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-set {
+    p {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+.skill-set {
+    padding: 2rem;
+    /* background-color: #f9f9f9; */
+}
+
+.skills-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.skill-level {
+    height: 100%;
+    background: #4caf50;
+    transition: width 0.3s;
+}
+
+.skill-card {
+    /* background: #fff; */
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    /* padding: 1rem; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    p {
+        text-decoration: none;
+    }
+}
+
+.skill {
+    background: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.mainpage-out.light {
+    background-color: var(--bg-color-light); 
+    color: var(--text-color-light); 
+}
+
+.mainpage-out.dark {
+    background-color: var(--bg-color-dark); 
+    color: var(--text-color-dark); 
+}
+
+.mainpage-out.light .main-text {
+    h1 {
+        color: #000;
+    }
+}
+
+.mainpage-out.dark .main-text {
+    h1 {
+        color: #fff; 
+    }
+}
+
+.mainpage-out.light .skill-set  {
+    p {
+        color: #000;
+    }
+}
+
+.mainpage-out.dark .skill-set  {
+    p {
+        color: #fff; 
+    }
+}
+
+.mainpage-out.light .skill-card  {
+    p {
+        color: #000;
+    }
+}
+
+.mainpage-out.dark .skill-card  {
+    p {
+        color: #fff; 
+    }
+}
+
+.mainpage-out.light .skills-display {
+    p {
+        color: #000;
+    }
+}
+
+.mainpage-out.dark .skills-display {
+    p {
+        color: #fff; 
+    }
+}
+
+@media only screen and (max-width: 448px) {
+
+    .main-text {
+        h1 {
+            font-size: 30px;
+        }
+        
+    }
+
+    .mainpage-cont {
+        flex-direction: column;
+        img {
+            height: 300px;
+        }
+    }
+
+    .skills-display {
+        gap: 0.5rem;
+    }
+
+    .skill-set {
+        padding: 0;
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .skill-card {
+        p {
+            font-size: 12px;
+            text-decoration: none;
+        }
+    }
+}

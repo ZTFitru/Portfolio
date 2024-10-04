@@ -1,0 +1,8 @@
+[
+    {"title": "HTML", "level": 90},
+    {"title": "CSS", "level": 70},
+    {"title": "JavaScript", "level": 75},
+    {"title": "TypeScript", "level": 30},
+    {"title": "React", "level": 65},
+    {"title": "Express", "level": 50}
+]
