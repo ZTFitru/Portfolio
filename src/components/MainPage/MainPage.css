@@ -9,7 +9,16 @@
 .mainpage-cont {
     display: flex;
     flex-direction: row;
+    img {
+        border-radius: 50%;
+    }
 }
+
+/* .main-text {
+    span {
+        
+    }
+} */
 
 .skill-set {
     p {

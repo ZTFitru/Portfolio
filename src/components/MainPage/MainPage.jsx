@@ -10,7 +10,7 @@ const MainPage = ({ toggle })=> {
             <div className="mainpage-cont">
                 <div className='main-text'>
                     <h1>
-                        Hi, i'm Z
+                        Hi, i'm <span>Z</span>
                     </h1>
                     <p>
                         Aspiring Front-End Developer
