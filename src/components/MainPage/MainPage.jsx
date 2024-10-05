@@ -12,6 +12,9 @@ const MainPage = ({ toggle })=> {
                     <h1>
                         Hi, i'm Z
                     </h1>
+                    <p>
+                        Aspiring Front-End Developer
+                    </p>
                 </div>
                 <img src={mainImg} alt="" />
                 <div className="skill-set"> 

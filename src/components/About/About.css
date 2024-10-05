@@ -3,6 +3,7 @@
     h4 {
         text-align: center;
         padding: 10px;
+        font-size: 30px;
     }
 }
 
@@ -24,13 +25,13 @@
 }
 
 .about-out.light .about-cont {
-    h3, p{
+    h4, p{
         color: #000;
     }
 }
 
 .about-out.dark .about-cont {
-    h3, p {
+    h4, p {
         color: #fff; 
     }
 }

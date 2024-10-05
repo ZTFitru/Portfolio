@@ -37,3 +37,8 @@
     background: black;
     color: white;
 }
+
+.light .nav-bar {
+    background: white;
+    color: black;
+}

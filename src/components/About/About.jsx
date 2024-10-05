@@ -22,6 +22,9 @@ const About = ({ toggle })=> {
                 text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this 
                 the first true generator on the Internet.
                 </p>
+                <a>
+                    Contact Me
+                </a>
             </div>
         </section>
     )

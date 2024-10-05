@@ -69,13 +69,13 @@
 }
 
 .mainpage-out.light .main-text {
-    h1 {
+    h1, p {
         color: #000;
     }
 }
 
 .mainpage-out.dark .main-text {
-    h1 {
+    h1, p {
         color: #fff; 
     }
 }
