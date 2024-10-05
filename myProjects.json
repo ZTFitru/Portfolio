@@ -22,5 +22,11 @@
         "description": "Play the classic game of Rock, Paper and Scissors or a difficult version inspired by SpongeBob.",
         "projImg": "src/assets/rock-paper-scissors.png",
         "link": "https://ztfitru.github.io/Rock-Paper-Scissors/"
+    },
+    {
+        "title": "Lennon-Lawn-Care",
+        "description": "A vibrant and user-friendly lawn service website showcasing a range of professional landscaping solutions, complete with easy booking options, customer testimonials, and helpful lawn care tips.",
+        "projImg": "src/assets/lennonlawncare.png",
+        "link": "https://lennon-lawn-care.vercel.app/"
     }
 ]
