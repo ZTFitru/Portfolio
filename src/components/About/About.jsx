@@ -7,13 +7,9 @@ const About = ({ toggle })=> {
             <h4>About me</h4>
             <div className="about-cont">
                 {/* <h4>About me</h4> */}
+                <p>My name is <span>Zelalem Fitru</span> but I go by Z.</p>
                 <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
-                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more 
-                obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
-                classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 
-                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                I was a Communications Sergeant while serving in the United Sates Army with the 1/509th Infantry Regiment. 
                 </p>
                 <p>
                 here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in 
@@ -22,8 +18,11 @@ const About = ({ toggle })=> {
                 text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this 
                 the first true generator on the Internet.
                 </p>
-                <a className='contact-btn'>
-                    <button>Contact Me</button>
+                <a className='contact-btn' 
+                    href='https://docs.google.com/document/d/1k16ioZACLJSKqUJD2KOa0le5yLaEXXOkMRRufpF8VDQ/edit?usp=sharing'
+                    target='_black'
+                    rel='noopener noreferrer'>
+                    <button>My Resume</button>
                 </a>
             </div>
         </section>
