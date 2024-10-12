@@ -1,4 +1,4 @@
-[
+const myProjects = [
     {
         "title": "Harry Potter",
         "description": "This application allows Harry Potter fans explore the world of wizards and witches that are mentioned in the books or have been seen in the movies.",
@@ -30,3 +30,5 @@
         "link": "https://lennon-lawn-care.vercel.app/"
     }
 ]
+
+export default myProjects;

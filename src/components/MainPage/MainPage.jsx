@@ -20,11 +20,11 @@ const MainPage = ({ toggle })=> {
                 <div className="skill-set"> 
                     <p>Skills</p>
                     <div className="skills-display"> 
-                        {mySkills.map(skill => (
-                            <div className='skill-card' key={skill.name}> 
+                        {mySkills.map((skill, index) => (
+                            <div className='skill-card' key={skill.id || `${skill.name}-${index}`}>
                                 <p>{skill.title}</p>
                                 <div className='skill'> 
-                                    <div className='skill-level' style={{width: `${skill.level}%`}}></div> 
+                                    <div className='skill-level' style={{ width: `${skill.level}%` }}></div> 
                                 </div>
                             </div>
                         ))}
