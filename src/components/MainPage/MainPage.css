@@ -9,7 +9,16 @@
 .mainpage-cont {
     display: flex;
     flex-direction: row;
+    img {
+        border-radius: 50%;
+    }
 }
+
+/* .main-text {
+    span {
+        
+    }
+} */
 
 .skill-set {
     p {
@@ -69,13 +78,13 @@
 }
 
 .mainpage-out.light .main-text {
-    h1 {
+    h1, p {
         color: #000;
     }
 }
 
 .mainpage-out.dark .main-text {
-    h1 {
+    h1, p {
         color: #fff; 
     }
 }

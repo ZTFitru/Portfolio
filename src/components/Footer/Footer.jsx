@@ -25,6 +25,9 @@ const Footer = ({ toggle })=> {
                     </li>
                 </ul>
             </div>
+            <div className='footer-text'>
+                <p>By: Zelalem Fitru</p>
+            </div>
         </footer>
     )
 }
