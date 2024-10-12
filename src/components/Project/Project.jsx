@@ -1,8 +1,19 @@
 import './Project.css'
-// import myProjects from '../../../myProjects.json'
-import myProjects from '../../../data.js'
+import { getProjects } from '../../../apiCall'
+import { useState, useEffect } from 'react'
 
 const Project = ({ toggle })=> {
+
+    const [myProjects, setMyProjects] = useState([])
+
+    useEffect(()=> {
+        getProjects()
+        .then(data => {
+            console.log(data)
+            setMyProjects(data)
+        })
+        .catch(error => console.log(error))
+    }, [])
 
 
     return (
