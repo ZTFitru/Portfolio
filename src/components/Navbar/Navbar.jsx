@@ -12,7 +12,8 @@ import { FaBars } from "react-icons/fa6";
 
 const Navbar = ({ toggle, setToggle }) => {
     const [open, setOpen] = useState(false)
-
+    const [lastScrollTop, setLastScrollTop] = useState(0);
+    const [navbarVisible, setNavbarVisible] = useState(true);
 
     const toggleFunction = () => {
         const newTheme = toggle === 'light' ? 'dark' : 'light'
@@ -29,8 +30,25 @@ const Navbar = ({ toggle, setToggle }) => {
         setOpen(!open)
     }
 
+    const handleScroll = () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            setNavbarVisible(false);
+        } else {
+            setNavbarVisible(true);
+        }
+        setLastScrollTop(scrollTop);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollTop]);
+
     return (
-        <header className='nav-bar'>
+        <header className={`nav-bar ${navbarVisible ? 'visible' : 'hidden'}`}>
             <Link to='home' smooth={true} duration={300}>
                 <img src={toggle === 'light' ? Daylogo : Nightlogo} alt="my logo" className='logo'/>
             </Link>
