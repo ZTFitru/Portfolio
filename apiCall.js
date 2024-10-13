@@ -6,3 +6,4 @@ export const getProjects = async ()=> {
     }
     return await response.json()
 }
+
