@@ -20,7 +20,6 @@ const About = ({ toggle })=> {
                 <p>
                     I also have all my socials on the bottom.
                 </p>
-                <p>Get my resume</p>
                 <a className='contact-btn' 
                     href='https://docs.google.com/document/d/1k16ioZACLJSKqUJD2KOa0le5yLaEXXOkMRRufpF8VDQ/edit?usp=sharing'
                     target='_black'
