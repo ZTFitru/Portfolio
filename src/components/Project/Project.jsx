@@ -9,7 +9,6 @@ const Project = ({ toggle })=> {
     useEffect(()=> {
         getProjects()
         .then(data => {
-            console.log(data)
             setMyProjects(data)
         })
         .catch(error => console.log(error))
