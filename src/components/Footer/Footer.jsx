@@ -1,6 +1,6 @@
 import './Footer.css'
 import { FaLinkedin, FaGithub, FaTwitterSquare } from "react-icons/fa";
-
+import { MdEmail } from "react-icons/md";
 const Footer = ({ toggle })=> {
     
 
@@ -21,6 +21,11 @@ const Footer = ({ toggle })=> {
                     <li>
                     <a href='https://x.com/ZTFitru' target="_blank" rel="noopener noreferrer">
                         <FaTwitterSquare className='footer-icon' />
+                        </a>
+                    </li>
+                    <li>
+                    <a href='mailto:zelalemtfitru@gmail.com'>
+                        <MdEmail className='footer-icon' />
                         </a>
                     </li>
                 </ul>
