@@ -60,10 +60,19 @@ const Navbar = ({ toggle, setToggle }) => {
                     <Link to='home' smooth={true} duration={300} onClick={()=> setOpen(false)}>Home</Link>
                 </li>
                 <li>
+                    <Link to='about' smooth={true} duration={300} onClick={()=> setOpen(false)}>About</Link>
+                </li>
+                <li>
                     <Link to='projects' smooth={true} duration={300} onClick={()=> setOpen(false)}>Projects</Link>
                 </li>
                 <li>
-                    <Link to='about' smooth={true} duration={300} onClick={()=> setOpen(false)}>About</Link>
+                    <a className='resume-nav-btn' 
+                        href='https://docs.google.com/document/d/1k16ioZACLJSKqUJD2KOa0le5yLaEXXOkMRRufpF8VDQ/edit?usp=sharing'
+                        target='_black'
+                        rel='noopener noreferrer'>
+                        <button>My Resume</button>
+                    </a>
+                    {/* <button onClick={()=> setOpen(false)}>About</button> */}
                 </li>
             </ul>
             <img onClick={toggleFunction} src={toggle === 'light' ? MoonIcon : SunIcon} alt="" className='toggle'/>

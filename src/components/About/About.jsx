@@ -6,7 +6,6 @@ const About = ({ toggle })=> {
         <section className={`about-out ${toggle}`}>
             <h4>About me</h4>
             <div className="about-cont">
-                {/* <h4>About me</h4> */}
                 <p>My name is <span>Zelalem Fitru</span>, but I go by Z.</p>
                 <p>I served as a Communications Sergeant in the <span>United States Army</span> with the 1/509th Infantry Regiment, where I developed strong leadership and communication skills.</p>
                 <p>I completed a seven-month coding program at the <span>Turing School of Software & Design</span>, where I honed my skills in web development.</p>

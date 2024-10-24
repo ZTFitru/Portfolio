@@ -17,11 +17,11 @@ const App = ()=> {
                 <Element name='home' className='section'>
                     <MainPage toggle={toggle}/>
                 </Element>
-                <Element name='projects' className='section'>
-                    <Project toggle={toggle} />
-                </Element>
                 <Element name='about' className='section'>
                     <About toggle={toggle} />
+                </Element>
+                <Element name='projects' className='section'>
+                    <Project toggle={toggle} />
                 </Element>
             <Footer toggle={toggle} />
         </main>
