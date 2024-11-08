@@ -16,6 +16,7 @@
 
 .main-text {
     margin-top: 100px;
+    margin-right: 50px;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 1s forwards;
@@ -37,16 +38,13 @@
 }
 
 .skill-set {
+    padding: 2rem;
     p {
         font-weight: bold;
-        text-decoration: underline;
+        font-style: italic;
     }
 }
 
-.skill-set {
-    padding: 2rem;
-    /* background-color: #f9f9f9; */
-}
 
 .skills-display {
     display: grid;
@@ -141,6 +139,45 @@
     }
 }
 
+.orb {
+    /* animation: spin 5s linear infinite; */
+    /* width: 200px; */
+    /* height: 200px; */
+    /* margin: auto; */
+    /* margin-top: 140px; */
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 
+        inset 0 0 50px #fff,
+        inset 20px 0 60px violet,
+        inset -20px 0 60px blue,
+        inset 20px 0 300px violet,
+        inset -20px 0 300px blue,
+        0 0 50px #fff,
+        -10px 0 60px violet,
+        10px 0 60px blue;
+}
+
+@keyframes spin {
+    0% {
+        top: 20px;
+    }
+    25% {
+        top: 22px;
+    }
+    50% {
+        top: 30px;
+    }
+    75% {
+        top: 27px;
+    }
+    100% {
+        transform: rotate(360deg);
+        top: 20px;
+    }
+}
+
+
 @media only screen and (max-width: 448px) {
 
     .main-text {
@@ -176,6 +213,17 @@
         p {
             font-size: 12px;
             text-decoration: none;
+        }
+    }
+
+    .orb {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 250px;
+        img {
+            height: 250px;
+            width: 250px;
         }
     }
 }

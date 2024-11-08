@@ -17,7 +17,7 @@ const Project = ({ toggle })=> {
 
     return (
         <section className={`project-out ${toggle}`}>
-            <h2>My Projects</h2>
+            <h3>My Projects</h3>
             <div className="parent-cont">
                 <div className="project-cont">
                     {myProjects.map((project, index)=> (

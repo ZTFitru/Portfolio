@@ -1,6 +1,6 @@
 .project-out {
     padding: 2rem;
-    h2 {
+    h3 {
         text-align: center;
         padding: 10px;
         font-size: 30px;
@@ -54,13 +54,13 @@
 }
 
 .project-out.light {
-    h2 {
+    h3 {
         color: #000;
     }
 }
 
 .project-out.dark {
-    h2 {
+    h3 {
         color: #fff;
     }
 }

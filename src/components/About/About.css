@@ -1,6 +1,6 @@
 .about-out {
     padding: 2rem;
-    h4 {
+    h2 {
         text-align: center;
         padding: 10px;
         font-size: 30px;
@@ -33,25 +33,25 @@
 }
 
 .about-out.light .about-cont {
-    h4, p{
+    h2, p{
         color: #000;
     }
 }
 
 .about-out.dark .about-cont {
-    h4, p {
+    h2, p {
         color: #fff; 
     }
 }
 
 .about-out.light {
-    h4, p {
+    h2, p {
         color: #000;
     }
 }
 
 .about-out.dark {
-    h4, p {
+    h2, p {
         color: #fff;
     }
 }
