@@ -16,6 +16,24 @@
 
 .main-text {
     margin-top: 100px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.main-text h1 span {
+    display: inline-block; 
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.5s; 
 }
 
 .skill-set {
