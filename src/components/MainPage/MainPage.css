@@ -149,13 +149,13 @@
     position: relative;
     box-shadow: 
         inset 0 0 50px #fff,
-        inset 20px 0 60px violet,
-        inset -20px 0 60px blue,
-        inset 20px 0 300px violet,
-        inset -20px 0 300px blue,
+        inset 20px 0 60px gold,
+        inset -20px 0 60px #C68346,
+        inset 20px 0 300px gold,
+        inset -20px 0 300px #C68346,
         0 0 50px #fff,
-        -10px 0 60px violet,
-        10px 0 60px blue;
+        -10px 0 60px gold,
+        10px 0 60px #C68346;
 }
 
 @keyframes spin {
