@@ -32,10 +32,10 @@
 }
 
 .airplane-btn {
-    background-color: #FF5722; 
+    background-color: rgb(103, 90, 15); 
     color: white; 
     border: none; 
-    padding: 15px 32px; 
+    padding: 12px 28px;  
     text-align: center; 
     align-items: center; 
     justify-content: center; 
@@ -55,7 +55,7 @@
 }
 
 .airplane-btn:hover  {
-    background-color: #E64A19;
+    background-color: #C68346;
 }
 
 .airplane-btn:hover .airplane-icon {
