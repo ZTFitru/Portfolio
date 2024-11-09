@@ -1,6 +1,7 @@
 import './Project.css'
 import { getProjects } from '../../../apiCall'
 import { useState, useEffect } from 'react'
+import { GiAirplaneDeparture } from "react-icons/gi";
 
 const Project = ({ toggle })=> {
 
@@ -26,7 +27,10 @@ const Project = ({ toggle })=> {
                             <img src={project.projImg} alt={project.title} />
                             <p>{project.description}</p>
                             <a href={project.link} target='_blank' rel='noopener noreferrer'>
-                                <button>Visit</button>
+                                <button className='airplane-btn'>
+                                    <span className='text-btn'>Vist</span>
+                                    <span className='airplane-icon'><GiAirplaneDeparture /></span>
+                                    </button>
                             </a>
                         </div>
                     ))}

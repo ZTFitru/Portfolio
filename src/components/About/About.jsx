@@ -1,5 +1,6 @@
 import './About.css'
 
+
 const About = ({ toggle })=> {
 
     return (
@@ -16,10 +17,10 @@ const About = ({ toggle })=> {
                     href='https://docs.google.com/document/d/1k16ioZACLJSKqUJD2KOa0le5yLaEXXOkMRRufpF8VDQ/edit?usp=sharing'
                     target='_black'
                     rel='noopener noreferrer'>
-                    <button>My Resume</button>
+                    <button className='resume-btn'>My Resume</button>
                 </a>
                 <a href='mailto:zelalemtfitru@gmail.com'>
-                    <button>Email Me</button>
+                    <button className='email-btn'>Email Me</button>
                 </a>
             </div>
         </section>

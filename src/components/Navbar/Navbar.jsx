@@ -72,7 +72,6 @@ const Navbar = ({ toggle, setToggle }) => {
                         rel='noopener noreferrer'>
                         <button>My Resume</button>
                     </a>
-                    {/* <button onClick={()=> setOpen(false)}>About</button> */}
                 </li>
             </ul>
             <img onClick={toggleFunction} src={toggle === 'light' ? MoonIcon : SunIcon} alt="" className='toggle'/>
