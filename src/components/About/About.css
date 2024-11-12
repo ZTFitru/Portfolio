@@ -13,6 +13,7 @@
 .about-cont {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0 10%;
     gap: 20px;
 }
@@ -119,6 +120,9 @@
 }
 
 @media only screen and (max-width: 448px) {
+    .about-out {
+        margin-top: 50px;
+    }
     .about-cont {
         padding: 0;
         flex-direction: column;
