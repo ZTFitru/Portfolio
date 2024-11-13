@@ -140,11 +140,6 @@
 }
 
 .orb {
-    /* animation: spin 5s linear infinite; */
-    /* width: 200px; */
-    /* height: 200px; */
-    /* margin: auto; */
-    /* margin-top: 140px; */
     border-radius: 50%;
     position: relative;
     box-shadow: 
