@@ -6,6 +6,7 @@ import { GiAirplaneDeparture } from "react-icons/gi";
 const Project = ({ toggle })=> {
 
     const [myProjects, setMyProjects] = useState([])
+    const [selectedProj, setSelectedProj] = useState(null)
 
     useEffect(()=> {
         getProjects()
@@ -14,6 +15,10 @@ const Project = ({ toggle })=> {
         })
         .catch(error => console.log(error))
     }, [])
+
+    const pickedProject = (index) => {
+        setMyProjects(selectedProj === index ? null : index)
+    }
 
 
     return (
@@ -30,7 +35,7 @@ const Project = ({ toggle })=> {
                                 <button className='airplane-btn'>
                                     <span className='text-btn'>Vist</span>
                                     <span className='airplane-icon'><GiAirplaneDeparture /></span>
-                                    </button>
+                                </button>
                             </a>
                         </div>
                     ))}

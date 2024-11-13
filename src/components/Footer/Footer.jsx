@@ -31,7 +31,7 @@ const Footer = ({ toggle })=> {
                 </ul>
             </div>
             <div className='footer-text'>
-                <p>By: Zelalem Fitru</p>
+                <p>Zelalem Fitru</p>
             </div>
         </footer>
     )
