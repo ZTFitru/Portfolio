@@ -56,4 +56,15 @@
     .footer-icon {
         font-size: 18px;
     }
+
+    .footer-cont {
+        li {
+            font-size: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    .footer-out {
+        padding: 0;
+    }
 }

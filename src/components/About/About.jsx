@@ -1,10 +1,11 @@
 import './About.css'
 
+
 const About = ({ toggle })=> {
 
     return (
         <section className={`about-out ${toggle}`}>
-            <h4>About me</h4>
+            <h2>About me</h2>
             <div className="about-cont">
                 <p>My name is <span>Zelalem Fitru</span>, but I go by Z.</p>
                 <p>I served as a Communications Sergeant in the <span>United States Army</span> with the 1/509th Infantry Regiment, where I developed strong leadership and communication skills.</p>
@@ -16,10 +17,10 @@ const About = ({ toggle })=> {
                     href='https://docs.google.com/document/d/1k16ioZACLJSKqUJD2KOa0le5yLaEXXOkMRRufpF8VDQ/edit?usp=sharing'
                     target='_black'
                     rel='noopener noreferrer'>
-                    <button>My Resume</button>
+                    <button className='resume-btn'>My Resume</button>
                 </a>
                 <a href='mailto:zelalemtfitru@gmail.com'>
-                    <button>Email Me</button>
+                    <button className='email-btn'>Email Me</button>
                 </a>
             </div>
         </section>

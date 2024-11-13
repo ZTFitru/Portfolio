@@ -16,7 +16,9 @@ const MainPage = ({ toggle })=> {
                         Aspiring Front-End Developer
                     </p>
                 </div>
-                <img src={mainImg} alt="" />
+                <div className='orb'>
+                    <img  src={mainImg} alt="" />
+                </div>
                 <div className="skill-set"> 
                     <p>Skills</p>
                     <div className="skills-display"> 
